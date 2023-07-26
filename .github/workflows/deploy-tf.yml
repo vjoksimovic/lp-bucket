@@ -1,11 +1,11 @@
-name: "Composer TF Apply"
+name: "Bucket TF Apply"
 
 on:
   push:
     branches: ["*"]
 
 jobs:
-  composer-apply:
+  bucket-apply:
     name: "Bucket Apply"
     runs-on: ubuntu-latest
     permissions: write-all
